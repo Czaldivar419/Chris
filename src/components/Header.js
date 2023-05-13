@@ -8,7 +8,7 @@ import {
   HamburgerContainer, 
   NavLinks, 
   ExitButton
-   } from "./styled/homepage.styled";
+   } from "./styled/Header.styled";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,13 +46,13 @@ function Header() {
           <a href="#Home" onClick={(event) => handleScrollTo(event, "#Banner")}>Home</a>
         </li>
         <li>
-          <a href="#Services" onClick={(event) => handleScrollTo(event, "#Services")}>Services</a>
+          <a href="#About" onClick={(event) => handleScrollTo(event, "#About")}>About Me</a>
         </li>
         <li>
-          <a href="#About" onClick={(event) => handleScrollTo(event, "#About")}>About</a>
+          <a href="#Projects" onClick={(event) => handleScrollTo(event, "#Projects")}>Projects</a>
         </li>
         <li>
-          <a href="#Vendors" onClick={(event) => handleScrollTo(event, "#Vendors")}>Vendors</a>
+          <a href="#Experience" onClick={(event) => handleScrollTo(event, "#Experience")}>Experience</a>
         </li>
         <li>
           <a href="#Contact" onClick={(event) => handleScrollTo(event, "#Contact")}>Contact</a>
