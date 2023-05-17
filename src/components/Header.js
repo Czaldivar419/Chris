@@ -34,7 +34,7 @@ function Header() {
   return (
     <NavbarContainer>
       <Logo>
-        <img src='logo.png' alt='logo'/>
+        CHRIS
       </Logo>
       <TransparentButton />
       <HamburgerContainer>
@@ -43,7 +43,7 @@ function Header() {
       </HamburgerContainer>
       <NavLinks isOpen={isOpen}>
         <li>
-          <a href="#Home" onClick={(event) => handleScrollTo(event, "#Banner")}>Home</a>
+          <a href="#Home" onClick={(event) => handleScrollTo(event, "#Home")}>Home</a>
         </li>
         <li>
           <a href="#About" onClick={(event) => handleScrollTo(event, "#About")}>About Me</a>
@@ -52,7 +52,7 @@ function Header() {
           <a href="#Projects" onClick={(event) => handleScrollTo(event, "#Projects")}>Projects</a>
         </li>
         <li>
-          <a href="#Experience" onClick={(event) => handleScrollTo(event, "#Experience")}>Experience</a>
+          <a href="#Skills" onClick={(event) => handleScrollTo(event, "#Experience")}>Skills</a>
         </li>
         <li>
           <a href="#Contact" onClick={(event) => handleScrollTo(event, "#Contact")}>Contact</a>
